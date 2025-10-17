@@ -3,6 +3,9 @@ using Microsoft.OpenApi.Models;
 using StudentAPI.Data;
 using Swashbuckle.AspNetCore.Filters;
 using StudentAPI.Authentication;
+using DotNetEnv;
+
+DotNetEnv.Env.Load();
 
 var builder = WebApplication.CreateBuilder(args);
 
